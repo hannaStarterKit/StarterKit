@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package com.capgemini.BowlingGameResultCalculator;
+
+/**
+ * @author HSIENKIE
+ *
+ */
+public interface calculatePoints {
+	
+
+}

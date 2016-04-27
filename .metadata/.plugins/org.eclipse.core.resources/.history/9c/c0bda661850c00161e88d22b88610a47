@@ -1,0 +1,20 @@
+package com.capgemini.BowlingGameResultCalculator;
+
+/**
+ * @author HSIENKIE
+ *
+ */
+public class GameStrategy {
+
+	private CalculatePoints calculatePoints;
+
+	public GameStrategy(GameConfiguration gameConfiguration) {
+		calculatePoints = new CalculatePointsNotLastRound();
+	}
+
+	public int getCurrentResult(GameHistory gameHistory) {
+		if(gameHistory.getNumberOfCurrentRound())
+		return calculatePoints.calculate(gameHistory);
+	}
+
+}

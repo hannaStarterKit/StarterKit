@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.junit.BeforeClass"/>
 <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
 <fullyQualifiedTypeName name="com.capgemini.gameOfLife.GameOfLife"/>
 <fullyQualifiedTypeName name="javaExercises.TestBowlingGameResultCalculator"/>
@@ -27,14 +26,11 @@
 <fullyQualifiedTypeName name="com.capgemini.BowlingGameResultCalculator.BowlingGameResultCalculatorImpl"/>
 <fullyQualifiedTypeName name="com.capgemini.BowlingGameResultCalculator.Roll"/>
 <fullyQualifiedTypeName name="javax.print.attribute.Size2DSyntax"/>
-<fullyQualifiedTypeName name="com.capgemini.BowlingGameResultCalculator.GameConfiguration"/>
-<fullyQualifiedTypeName name="com.capgemini.BowlingGameResultCalculator.GameHistory"/>
 <fullyQualifiedTypeName name="com.capgemini.BowlingGameResultCalculator.Round"/>
 <fullyQualifiedTypeName name="javax.swing.plaf.basic.DefaultMenuLayout"/>
 <fullyQualifiedTypeName name="java.lang.Throwable"/>
 <fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
 <fullyQualifiedTypeName name="events.NoFileToWriteException"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="events.ReadFile"/>
@@ -54,10 +50,14 @@
 <fullyQualifiedTypeName name="org.mockito.runners.MockitoJUnitRunner"/>
 <fullyQualifiedTypeName name="pl.luciow.warehouse.PaymentProcessor"/>
 <fullyQualifiedTypeName name="org.mockito.stubbing.Answer"/>
-<fullyQualifiedTypeName name="pl.luciow.warehouse.model.Payment"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="pl.luciow.warehouse.util.ValidatorException"/>
+<fullyQualifiedTypeName name="pl.luciow.warehouse.model.Payment"/>
 <fullyQualifiedTypeName name="org.mockito.Mockito"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="pl.luciow.warehouse.util.ValidatorException"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.capgemini.BowlingGameResultCalculator.GameHistory"/>
+<fullyQualifiedTypeName name="com.capgemini.BowlingGameResultCalculator.GameConfiguration"/>
+<fullyQualifiedTypeName name="com.capgemini.BowlingGameResultCalculator.CalculatePointsNotLastRound"/>
 </qualifiedTypeNameHistroy>

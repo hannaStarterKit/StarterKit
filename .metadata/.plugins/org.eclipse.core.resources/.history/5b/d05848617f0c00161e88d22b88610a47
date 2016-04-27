@@ -1,0 +1,18 @@
+package com.capgemini.BowlingGameResultCalculator;
+
+/**
+ * @author HSIENKIE
+ *
+ */
+public class GameStrategy {
+	
+	private CalculatePoints calculatePoints;
+	
+	public GameStrategy(GameConfiguration gameConfiguration) {
+		
+	}
+	public int getCurrentResult(GameHistory gameHistory){
+		return 0;
+	}
+
+}

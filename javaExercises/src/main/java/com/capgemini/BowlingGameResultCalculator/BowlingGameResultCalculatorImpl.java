@@ -13,13 +13,13 @@ public class BowlingGameResultCalculatorImpl implements BolwingGameResultCalcula
 	/**
 	 * 
 	 */
-	//BowlingGameResultCalculatorImpprivate GameStrategy gameStrategy;
+	private GameStrategy gameStrategy;
 	private GameConfiguration gameConfiguration;
 	private GameHistory gameHistory;
 
 	public BowlingGameResultCalculatorImpl() {
 		gameConfiguration = new GameConfiguration();
-		//gameStrategy = new GameStrategy(gameConfiguration);
+		gameStrategy = new GameStrategy(gameConfiguration);
 		gameHistory = new GameHistory(gameConfiguration);
 	}
 
@@ -42,7 +42,7 @@ public class BowlingGameResultCalculatorImpl implements BolwingGameResultCalcula
 	 * score()
 	 */
 	public int score() {
-		return gameHistory.getResult2();
+		return gameStrategy.getCurrentResult(gameHistory);
 	}
 
 	/*

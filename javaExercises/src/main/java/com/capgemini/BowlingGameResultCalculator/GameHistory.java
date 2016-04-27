@@ -88,11 +88,15 @@ public class GameHistory {
 	}
 
 	private boolean IsLastRoundFinished() {
-		int numberOfLastRound = listOfRounds.size();
+		int numberOfLastRound = getNumberOfCurrentRound();
 		return (numberOfLastRound == 0 || listOfRounds.get(numberOfLastRound - 1).amIFinished());
 	}
 
 	private Round getLastRaund() {
 		return listOfRounds.get(listOfRounds.size() - 1);
+	}
+	
+	public int getNumberOfCurrentRound(){//ja ją jeszcze wykorzystuje wyzej dlatego jest public
+		return listOfRounds.size();
 	}
 }

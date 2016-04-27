@@ -26,7 +26,7 @@
 		<item value="true" key="actionSetFilter"/>
 	</section>
 	<section name="ImportExportAction">
-		<item value="com.mountainminds.eclemma.ui.sessionImportWizard" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<item value="org.eclipse.m2e.core.wizards.Maven2ImportWizard" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
 			<item value="org.eclipse.m2e"/>
