@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SessionImportWizard">
+		<item value="127.0.0.1" key="SessionImportPage1.address"/>
+		<item value="false" key="SessionImportPage2.binaries"/>
+		<item value="0" key="SessionImportPage1.source"/>
+		<item value="0" key="SessionImportPage1.copy"/>
+		<item value="false" key="SessionImportPage1.reset"/>
+		<item value="6300" key="SessionImportPage1.port"/>
+		<list key="SessionImportPage1.urls">
+			<item value=""/>
+		</list>
+		<list key="SessionImportPage2.scope">
+			<item value="=txtEditor/src\/test\/java"/>
+		</list>
+		<list key="SessionImportPage1.files">
+			<item value="C:\Users\hsienkie\workspace\txtEditor\src\code.txt"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,48 @@
+/**
+ * 
+ */
+package com.capgemini.BowlingGameResultCalculator;
+
+/**
+ * @author HSIENKIE
+ *
+ */
+public class Roll {
+
+	/**
+	 * 
+	 */
+	private boolean  isFinished; // ENUM 
+	private int knockedPins; // wyjatek dla >10 i mniejszego od 0
+
+	public Roll() {
+		setFinished(false);
+	}
+
+/*	public void setWhichRoll(int whichRoll) {
+		this.whichRoll = whichRoll;
+	}*/
+
+	public int getKnockedPins() {
+		return knockedPins;
+	}
+
+	public void setKnockedPins(int knockedPins) {
+		this.knockedPins = knockedPins;
+	}
+
+	/**
+	 * @return the isFinished
+	 */
+	public boolean isFinished() {
+		return isFinished;
+	}
+
+	/**
+	 * @param isFinished the isFinished to set
+	 */
+	public void setFinished(boolean isFinished) {
+		this.isFinished = isFinished;
+	}
+
+}

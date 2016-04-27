@@ -1,0 +1,60 @@
+/**
+ * 
+ */
+package com.capgemini.BowlingGameResultCalculator;
+
+import java.awt.List;
+import java.util.ArrayList;
+
+/**
+ * @author HSIENKIE
+ *
+ */
+public class Frame {
+
+	private static final int MAX_KNOCKED_PINS_IN_SINGLE_ROLL = 10;
+	private static final int MAX_ROLLS = 2;
+	/**
+	 * 
+	 */
+
+	private int whichFrame; // wyjatek od ilu do ilu 0,10
+	private ArrayList<Roll> ListOfRolls; //List<Roll> list = new ArrayList<Roll>();czemu to nie dziala
+
+
+	public Frame(int whichFrameAmI) {
+		// stworzyc rolla, ale ile
+		setWhichFrame(whichFrameAmI);
+		ListOfRolls = new ArrayList<Roll>(MAX_ROLLS);
+		// wiem czy bedzie w ogole drugi rzut
+	}
+
+	public boolean AmIFinished() {
+		return (ListOfRolls.get(0).getKnockedPins() == MAX_KNOCKED_PINS_IN_SINGLE_ROLL || ListOfRolls.get(MAX_ROLLS).getKnockedPins() > 0);
+	}
+
+	public void setKnockekPins(int numberOfPins) {
+		if(ListOfRolls.get(0).isFinished()){
+			ListOfRolls.get(0).setKnockedPins(numberOfPins);
+		}
+		else {
+			ListOfRolls.get(MAX_ROLLS).setKnockedPins(numberOfPins);
+		}
+	}
+
+	/**
+	 * @return the whichFrame
+	 */
+	public int getWhichFrame() {
+		return whichFrame;
+	}
+
+	/**
+	 * @param whichFrame
+	 *            the whichFrame to set
+	 */
+	public void setWhichFrame(int whichFrame) {
+		this.whichFrame = whichFrame;
+	}
+
+}

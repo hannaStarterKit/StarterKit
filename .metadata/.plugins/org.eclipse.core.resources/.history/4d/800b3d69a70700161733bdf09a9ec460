@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package com.capgemini.BowlingGameResultCalculator;
+
+/**
+ * @author HSIENKIE
+ *
+ */
+public class Roll {
+
+	/**
+	 * 
+	 */
+	private int whichRoll;
+	private int knockedPins;
+	
+	public Roll(int whichRollAmI, int howManyKoncedPins) {
+		// TODO Auto-generated constructor stub
+		whichRoll = whichRollAmI;
+		knockedPins = howManyKoncedPins;
+	}
+
+}

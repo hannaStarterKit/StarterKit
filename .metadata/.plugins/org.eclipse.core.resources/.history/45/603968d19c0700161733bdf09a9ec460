@@ -1,0 +1,44 @@
+/**
+ * 
+ */
+package com.capgemini.BowlingGameResultCalculator;
+
+/**
+ * @author HSIENKIE
+ *
+ */
+public class BowlingGame implements BolwingGameResultCalculator {
+
+	/**
+	 * 
+	 */
+	public BowlingGame() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/* (non-Javadoc)
+	 * @see com.capgemini.BowlingGameResultCalculator.BolwingGameResultCalculator#roll(int)
+	 */
+	public void roll(int numberOfPins) {
+		// TODO HS jesli wieksza od 10, albo mniejsza od jeden to wyjatek
+		
+
+	}
+
+	/* (non-Javadoc)
+	 * @see com.capgemini.BowlingGameResultCalculator.BolwingGameResultCalculator#score()
+	 */
+	public int score() {
+		// TODO Auto-generated method stub
+		return 10;
+	}
+
+	/* (non-Javadoc)
+	 * @see com.capgemini.BowlingGameResultCalculator.BolwingGameResultCalculator#isFinshed()
+	 */
+	public boolean isFinshed() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

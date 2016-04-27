@@ -1,0 +1,22 @@
+1460984123906	Delete element
+1460984355839	Delete element
+1460984389090	Delete element
+1460984803016	Delete element
+1460987046905	Delete element
+1461155417974	Delete element
+1461179679156	Rename type 'TestBowlingGameResultCalculator'
+1461224158019	Delete element
+1461228476550	Encapsulate field 'whichFrame'
+1461228721804	Encapsulate field 'firstRoll'
+1461229021626	Rename field 'secondRoll'
+1461229060410	Rename field 'firstRoll'
+1461229196678	Rename local variable 'knocedPinsInFirstRoll'
+1461229243390	Rename local variable 'whichAmIFrame'
+1461229288679	Encapsulate field 'knocekPinsInFirstRoll'
+1461234917746	Encapsulate field 'whichFrame'
+1461240455750	Encapsulate field 'isFinished'
+1461412255457	Rename type 'BowlingGame'
+1461414596495	Rename type 'GameKonfiuration'
+1461414660936	Rename type 'GameConfiuration'
+1461415599830	Rename type 'Frame'
+1461507196638	Rename method 'saveResult'

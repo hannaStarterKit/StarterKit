@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package events;
+
+/**
+ * @author HSIENKIE
+ *
+ */
+public class NoFileToReadException extends Exception {
+	
+	NoFileToReadException(){
+		
+	}
+	
+    public NoFileToReadException(Throwable t) {
+        super(t);
+    }
+	
+
+}

@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+package com.capgemini.BowlingGameResultCalculator;
+
+/**
+ * @author HSIENKIE
+ *
+ */
+public class Frame {
+
+	private static final int MAX_KNOCKED_PINS_IN_SINGLE_ROLL = 10;
+	/**
+	 * 
+	 */
+
+
+
+
+	public Frame(int whichFrameAmI, int knockedPins) {
+
+		
+	}
+
+	public boolean AmIFinished() {
+		return (knocekPinsInFirstRoll == MAX_KNOCKED_PINS_IN_SINGLE_ROLL || knockedPinsInSecondRoll > 0);
+	}
+
+	public void setKnocekPinsInRoll(int numberOfPins) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

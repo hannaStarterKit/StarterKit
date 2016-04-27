@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package txtEditor;
+
+/**
+ * @author HSIENKIE
+ *
+ */
+public @interface PrepareForTest {
+
+}

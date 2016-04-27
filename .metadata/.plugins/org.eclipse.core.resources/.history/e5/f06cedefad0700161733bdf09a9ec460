@@ -1,0 +1,44 @@
+/**
+ * 
+ */
+package com.capgemini.BowlingGameResultCalculator;
+
+/**
+ * @author HSIENKIE
+ *
+ */
+public class Roll {
+
+	/**
+	 * 
+	 */
+	private int whichRoll; // ENUM tylko 1 albo 2
+	private int knockedPins; // wyjatek dla >10 i mniejszego od 0
+
+	public Roll() {
+
+	}
+
+	public Roll(int whichRollAmI, int howManyKoncedPins) {
+		// TODO Auto-generated constructor stub
+		setWhichRoll(whichRollAmI);
+		setKnockedPins(howManyKoncedPins);
+	}
+
+	public int getWhichRoll() {
+		return whichRoll;
+	}
+
+	public void setWhichRoll(int whichRoll) {
+		this.whichRoll = whichRoll;
+	}
+
+	public int getKnockedPins() {
+		return knockedPins;
+	}
+
+	public void setKnockedPins(int knockedPins) {
+		this.knockedPins = knockedPins;
+	}
+
+}

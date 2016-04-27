@@ -1,0 +1,53 @@
+/**
+ * 
+ */
+package com.capgemini.BowlingGameResultCalculator;
+
+/**
+ * @author HSIENKIE
+ *
+ */
+public class Frame {
+
+	/**
+	 * 
+	 */
+	private int whichFrame;
+	private int knocekPinsInFirstRoll;
+	private int knockedPinsInSecondRoll;
+	
+	public Frame(int whichFrameAmI, int knockedPins) {
+		// TODO Auto-generated constructor stub
+		setWhichFrame(whichFrameAmI);
+		setKnocekPinsInFirstRoll(knockedPins);
+	}
+
+	/**
+	 * @return the whichFrame
+	 */
+	public int getWhichFrame() {
+		return whichFrame;
+	}
+
+	/**
+	 * @param whichFrame the whichFrame to set
+	 */
+	public void setWhichFrame(int whichFrame) { //nie lepiej to usunac i w konstruktorze po prostu wstawiac
+		this.whichFrame = whichFrame;
+	}
+
+	/**
+	 * @return the knocekPinsInFirstRoll
+	 */
+	public int getKnocekPinsInFirstRoll() {
+		return knocekPinsInFirstRoll;
+	}
+
+	/**
+	 * @param knocekPinsInFirstRoll the knocekPinsInFirstRoll to set
+	 */
+	public void setKnocekPinsInFirstRoll(int knocekPinsInFirstRoll) {
+		this.knocekPinsInFirstRoll = knocekPinsInFirstRoll;
+	}
+
+}
